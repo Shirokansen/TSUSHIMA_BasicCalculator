@@ -1,4 +1,4 @@
-package com.example.tsushima_simplecalculator;
+package com.example.tsushima_basiccalculator;
 
 import org.junit.Test;
 

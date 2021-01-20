@@ -40,6 +40,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
+        android:text="0"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
@@ -52,6 +53,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:text="0"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintHorizontal_bias="0.549"
@@ -110,7 +112,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnSubtraction" />
 
     <Button
-        android:id="@+id/txtAnswer"
+        android:id="@+id/btnModulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -131,10 +133,10 @@
         app:layout_constraintEnd_toEndOf="@+id/btnMultiplication"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/btnDivision"
-        app:layout_constraintTop_toBottomOf="@+id/txtAnswer" />
+        app:layout_constraintTop_toBottomOf="@+id/btnModulo" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txtanswer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
